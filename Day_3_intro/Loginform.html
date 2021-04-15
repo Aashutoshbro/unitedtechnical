@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Making Form</title>
+<style type="text/css">
+	body{
+		padding:0px;
+		margin:0px;
+		background-color:lightblue;
+	}
+	.maindiv{
+		text-align: center;
+		margin-top:150px;
+		
+
+
+	}
+	.login{
+		font-weight: bold;
+		font-size:20px;
+		color:red;
+		font-family: sans-serif;
+	}
+	.username{
+		width:250px;
+		height:25px;
+/*		background-color:rgb(172,172,0);*/
+		border:3px solid green;
+		border-radius:25px;
+		text-align: center;
+		outline: none;
+
+	}
+	
+	.signin1{
+		border:3px solid green;
+		border-radius:20px;
+		height:35px;
+		text-align: center;
+		width:110px;
+		outline: none;
+		background-color:#60CCFd;
+		color:red;
+		font-size:20px;
+		font-weight:bold;
+	}
+	.signin2{
+		border:3px solid green;
+		border-radius:20px;
+		height:35px;
+		text-align: center;
+		width:110px;
+		outline: none;
+		background-color:#51DF34;
+		color:blue;
+		font-size:20px;
+		font-weight:bold;
+	}
+	
+	.date{
+		width:150px;
+		height:25px;
+		border-radius:20px;
+		text-align: center;
+		outline: none;	
+		border:3px solid orange;
+	}
+	.color{
+		border:3px dashed blue;
+		border-radius:8px;
+
+	}
+	.gender{
+		color:red;
+		font-size:18px;
+
+	}
+	.htmlcssjs{
+		color:#6A35FD;
+		font-size:20px;
+	}
+	input{
+		margin:5px;
+	}
+</style>
+</head>
+<body>
+<div class="maindiv">	
+	<div class="login">
+		<p>Tech With Aashubro</p><br>
+	</div>
+ <!-- style="margin: 0 auto; width:35px;" -->
+	<div>
+		<form method="post">
+			<input type="text" placeholder="Username" class="username"><br><br>
+			<input type="Email" placeholder="Email" class="username"><br><br>
+			<input type="password" placeholder="Password" class="username"><br><br>
+			<input type="date" class="date"><br><br>
+			<label class="gender">Male</label><input type="radio" name="g">
+			<label class="gender">Female</label><input type="radio" name="g"><br><br>
+				
+				<div class="htmlcssjs">
+					<input type="checkbox" name=""><label>HTML</label>
+					<input type="checkbox" name=""><label>CSS</label>
+					<input type="checkbox" name=""><label>JavaScript</label>
+					<input type="checkbox" name=""><label>Bootstrap</label><br><br>
+				</div>	
+
+			<input type="color" class="color"><br><br><br>
+			
+			<input type="submit" value="Sign Up" class="signin1">&nbsp;
+
+			<input type="submit" value="Log In" class="signin2">
+
+
+		</form>
+	</div>
+</div>
+
+</body>
+</html>
