@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Making EYE</title>
+
+<style type="text/css">
+
+body{
+	margin:0px;
+	padding:0px;
+	background:#576574;
+}
+.eye{
+	width:180px;
+	height:180px;
+	background-color:white;
+	position: absolute;
+	top:50%;
+	left:25%;
+	border-radius: 75% 0;
+	transform:translate(-50%,-50%) rotate(45deg);
+	overflow: hidden;
+}
+.ball{
+	width:20px;
+	height:20px;
+	background:#54a0ff;
+	position:absolute;
+	top:50%;
+	left:50%;
+	border-radius:50%;
+	border:30px solid #222f3e;
+	transform:translate(-50%,-50%);
+
+}
+.shut{
+	width:300px;
+	height:150px;
+	position:absolute;
+	top:50%;
+	left: 50%;
+	transform:translate(-50%,-50%) rotate(-45deg);
+	z-index:999;
+}
+.shut span{
+	display: block;
+	width: 100%;
+	height:20%;
+	background:#ee5253;
+	border-radius:0 0 60% 60%;
+	transition:0.5s all;
+
+}
+.eye:hover > .shut span{
+	height:100%;
+}
+
+.eye1{
+	width:180px;
+	height:180px;
+	background-color:white;
+	position: absolute;
+	top:50%;
+	left:65%;
+	border-radius: 75% 0;
+	transform:translate(-50%,-50%) rotate(45deg);
+	overflow: hidden;
+}
+.ball1{
+	width:20px;
+	height:20px;
+	background:#54a0ff;
+	position:absolute;
+	top:50%;
+	left:50%;
+	border-radius:50%;
+	border:30px solid #222f3e;
+	transform:translate(-50%,-50%);
+
+}
+.shut1{
+	width:300px;
+	height:150px;
+	position:absolute;
+	top:50%;
+	left: 50%;
+	transform:translate(-50%,-50%) rotate(-45deg);
+	z-index:999;
+}
+.shut1 span{
+	display: block;
+	width: 100%;
+	height:20%;
+	background:#ee5253;
+	border-radius:0 0 60% 60%;
+	transition:0.5s all;
+
+}
+.eye1:hover > .shut1 span{
+	height:100%;
+}
+
+
+	</style>
+
+
+</head>
+<body>
+	<div class="container">
+		<div class="lashes"></div>
+	<div class="eye">
+		<div class="shut">
+			<span></span>
+		</div>
+		<div class="ball">
+			
+		</div>
+	</div>
+
+	<div class="lashes1"></div>
+	<div class="eye1">
+		<div class="shut1">
+			<span></span>
+		</div>
+		<div class="ball1">
+			
+		</div>
+	</div>
+</div>
+</body>
+</html>
